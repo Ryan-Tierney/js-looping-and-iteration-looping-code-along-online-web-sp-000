@@ -1,9 +1,9 @@
 // Code your solutions in this file
-const cards = ['Lisa', 'Kaitlin', 'Jan'];
+const cards = ['Lisa', 'Kaitlin', ''];
 
 function writeCards(cards) { 
   let i = 0; 
-  for (i < cards.length) { 
+  while (i < cards.length) { 
     console.log(`Thank you, ${cards[i]} for the wonderful surprise gift!`);
     i++; 
   } 

@@ -1,5 +1,4 @@
 // Code your solutions in this file
-const cards = ['Lisa', 'Kaitlin', 'Jan'];
 
 function writeCards(cards) { 
   for (let i = 0; i < cards.length; i++) { 
@@ -12,6 +11,7 @@ function writeCards(cards) {
 writeCards(cards);
 
 
+function countDown()
 let countDown = 10; 
 while (countdown < 0) { 
   console.log(countdown--)

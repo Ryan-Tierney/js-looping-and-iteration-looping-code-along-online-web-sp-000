@@ -8,6 +8,7 @@ function writeCards(cards) {
     i++; 
   } 
   
+  return cards; 
 } 
 
 writeCards(cards);

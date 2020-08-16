@@ -4,7 +4,7 @@ const cards = ["Sarah", "Sam", "Jason", "Derek"]
 function writeCards(cards) { 
   let i = 0; 
   while (i < cards.length) { 
-    console.log(`Thank you for the gift ${cards[i]} I really liked it`);
+    console.log(`Thank you, ${cards[i]} for the wonderful surprise gift!`);
     i++; 
   } 
   
